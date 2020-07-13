@@ -1,0 +1,1372 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+ 
+
+
+
+
+::placeholder {
+  color: white;
+  opacity: ; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: white;
+}
+
+
+
+
+
+
+
+  @font-face {
+    font-family: Thaoma;
+    src: url('http://fontonline.ir/fonts/BYekan.eot?#') format('eot'), url('http://fontonline.ir/fonts/BYekan.ttf') format('truetype'), url('http://fontonline.ir/fonts/BYekan.woff') format('woff');
+  }
+
+  body {
+    margin: 0;
+    font-family:  Tahoma;
+    background: #edeced url('../images/site-background.jpg')repeat;
+    text-algin:left ;
+    direction: rtl;
+  }
+
+  h1 {
+    font-size: 16px;
+    font-family:  Tahoma;
+    font-weight: normal;
+  }
+
+  h2 {
+    font-size: 14px;
+    font-family:  Tahoma;
+    font-weight: normal;
+  }
+
+  h3 {
+    font-size: 14px;
+    font-family:  Tahoma;
+    font-weight: normal;
+  }
+
+  h4 {
+    font-size: 12px;
+    font-family: Tahoma;
+    font-weight: normal;
+  }
+
+  h5 {
+    font-size: 12px;
+    font-family:  Tahoma;
+    font-weight: normal;
+  }
+
+  h6 {
+    font-size: 12px;
+    font-family:  Tahoma;
+    font-weight: normal;
+  }
+
+  a {
+    text-decoration: none;
+    color: #111;
+  }
+
+  a:hover {
+    color: #999;
+  }
+
+  h2 a {
+    color: #fff;
+  }
+
+  input[type="text"] {
+    align-content: left ;
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    font: 11px Tahoma, Arial;
+    transition: all 0.5s ease 0s;
+    -webkit-box-shadow: inset 3px 4px 4px 0px rgba(223, 223, 223, 1);
+    -moz-box-shadow: inset 3px 4px 4px 0px rgba(223, 223, 223, 1);
+    box-shadow: inset 3px 4px 4px 0px rgba(223, 223, 223, 1);
+  }
+
+  input[type="password"] {
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    font: 11px Tahoma, Arial;
+    transition: all 0.5s ease 0s;
+    -webkit-box-shadow: inset 3px 4px 4px 0px rgba(223, 223, 223, 1);
+    -moz-box-shadow: inset 3px 4px 4px 0px rgba(223, 223, 223, 1);
+    box-shadow: inset 3px 4px 4px 0px rgba(223, 223, 223, 1);
+  }
+
+  input[type="submit"] {
+    background: #ff4e00;
+    border: 0;
+    color: #fff;
+    padding: 5px;
+    font: 16px Tahoma;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #696969;
+  }
+
+  input[type="button"] {
+    background: #ff4e00;
+    border: 0;
+    color: #fff;
+    padding: 5px;
+    font: 16px Tahoma;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+  }
+
+  input[type="button"]:hover {
+    background-color: #696969;
+  }
+
+  input[type="reset"] {
+    background: #ff4e00;
+    border: 0;
+    color: #fff;
+    padding: 5px;
+    font: 16px Tahoma;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+  }
+
+  input[type="reset"]:hover {
+    background-color: #696969;
+  }
+
+  .fr {
+    float: left;
+  }
+
+  .fl {
+    float: left;
+  }
+
+  .GreenSkin {
+    width: 1000px;
+    background: #edeced;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    -moz-box-shadow: 0px 3px 12px 4px #999;
+    -webkit-box-shadow: 0px 3px 12px 4px #999;
+    box-shadow: 0px 3px 12px 4px #999;
+  }
+
+  header {
+    width: 100%;
+    color: #fff;
+    background: #222 url('https://github.com/mahdi-javid/mahdi-javid.github.io/blob/master/CMD/CMD_Group_Logo.png?raw=true');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 900px;
+    top;
+    height: 480px;
+    vertical-align: top;
+    direction: rtl;
+  }
+
+  header #GS_Slider {
+    position: absolute;
+    padding: 96px 584px 0px 0px;
+  }
+
+  header nav {
+    height: 30px;
+    width: 650px;
+    float: left;
+    bottom: 0px;
+    position: relative;
+    top: 35px;
+    display: block;
+  }
+
+  header nav ul {
+    margin: 5px -20px 0 3px;
+    list-style: none;
+    list-style-position: inside;
+  }
+
+  header nav ul li a {
+    color: #fff !important;
+    font-weight: normal;
+  }
+
+  header nav ul li {
+    float: right;
+    padding: 9px 12px 7px 12px;
+    transition: all 0.5s ease;
+    border-left: 1px solid #5f5f5f;
+    font-size: 12px;
+    font-family:  Tahoma;
+    text-shadow: 1px 1px 0 #000;
+  }
+
+  header nav ul li:hover {
+    background: #606060;
+    text-shadow: 1px 1px 0 #696969;
+  }
+
+  header nav ul li:hover a {
+    color: #eee;
+    text-shadow: 1px 1px 0 #000;
+  }
+
+  header nav .GSSearch {
+    position: relative;
+    margin: 0px 0px 0px 10px;
+    padding: 6px;
+  }
+
+  header nav .GSSearch input[type=text] {
+    ;
+    background: #efefef;
+    width: 150px;
+    transition: all 0.8s ease;
+    direction: rtl;
+    padding: 6px 10px 6px 8px;
+    margin-left: -6px;
+    text-align: left;
+  }
+
+  header nav .GSSearch input[type=text]:focus {
+    background: #fff;
+    width: 200px;
+    direction: ltr;
+  }
+
+  header nav .GSSearch input[type="submit"] {
+    background: #2c2d0c;
+    border: 0;
+    color: #fff;
+    padding: 6px 10px 7px 10px;
+    font: 12px Tahoma;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+  }
+
+  header nav .GSSearch input[type="submit"]:hover {
+    background-color: #696969;
+  }
+
+  section {
+    width: 553px;
+    display: block;
+    float: right;
+    margin-bottom: 12px;
+  }
+
+  section article {
+    width: 543px;
+    background: #eaeaea;
+    direction: ltr;
+    color: #111;
+    font-size: 12px;
+    border: 1px #999 solid;
+    display: block;
+    margin: 12px 5px 0px 4px;
+    -moz-box-shadow: 1px 1px 5px 1px #999;
+    -webkit-box-shadow: 1px 31px 5px 1px #999;
+    box-shadow: 1px 1px 5px 1px #999;
+  }
+
+  section article h2 {
+    background: #202020;
+    color: #eee;
+    padding: 10px;
+    /**/
+    margin-right: 20px;
+  }
+
+  section article h2 span {
+    background: url('https://github.com/mahdi-javid/mahdi-javid.github.io/blob/master/CMD/wal.png?raw=true') right no-repeat;
+    height: 50px;
+    width: 50px;
+    float: left;
+    position: relative;
+    margin: -15px -30px 0px 5px;
+  }
+  
+  section article .GSPostMain {
+    padding: 10px;
+  }
+
+  section article .GSPostMain .meta {
+    margin-top: 10px;
+  }
+
+  section article .GSPostMain .meta span {
+    display: inline-block;
+    font-family:  Tahoma;
+  }
+
+  section article .GSPostMain .meta span.more {
+    padding: 10px;
+    background: #b04300;
+    text-shadow: 1px 1px 0 #696969;
+    font: 11px;
+  }
+
+  section article .GSPostMain .meta span.date {
+    padding: 10px;
+    background: #818181;
+    text-shadow: 1px 1px 0 #696969;
+    font: 11px;
+    color: #fff;
+  }
+
+  section article .GSPostMain .meta span.user {
+    padding: 10px;
+    background: #414141;
+    text-shadow: 1px 1px 0 #696969;
+    font: 11px;
+    color: #fff;
+  }
+
+  section article .GSPostMain .meta span.comment {
+    padding: 10px;
+    background: #e36407;
+    text-shadow: 1px 1px 0 #696969;
+    font: 11px;
+    color: #fff;
+  }
+
+  section article .GSPostMain .meta span.more a,
+  .meta span.comment a {
+    color: #fff;
+    padding: 5px;
+  }
+
+  section article .GSPostMain .meta span.more:hover {
+    background: #202020;
+    text-shadow: 1px 1px 0 #696969;
+    transition: all 0.5s ease;
+  }
+
+  section article .GSPostMain .meta span.date:hover {
+    background: #202020;
+    text-shadow: 1px 1px 0 #696969;
+    transition: all 0.5s ease;
+  }
+
+  section article .GSPostMain .meta span.user:hover {
+    background: #202020;
+    text-shadow: 1px 1px 0 #696969;
+    transition: all 0.5s ease;
+  }
+
+  section article .GSPostMain .meta span.comment:hover {
+    background: #202020;
+    text-shadow: 1px 1px 0 #696969;
+    transition: all 0.5s ease;
+  }
+
+  aside {
+    width: 220px;
+    margin-bottom: 12px;
+  }
+
+  .GSside-1 {
+    display: block;
+    float: right;
+  }
+
+  .GSside-2 {
+    display: block;
+    float: right;
+  }
+
+  aside nav {
+    width: 210px;
+    background: #eaeaea;
+    direction: rtl;
+    color: #111;
+    font-size: 12px;
+    margin: 12px 5px 0px 4px;
+    border: 1px #999 solid;
+    -moz-box-shadow: 1px 1px 5px 1px #999;
+    -webkit-box-shadow: 1px 1px 5px 1px #999;
+    box-shadow: 1px 1px 5px 1px #999;
+  }
+
+  aside nav p {
+    padding: 0px 5px 0px 5px;
+    color: #111;
+    text-align: left;
+    font-size: 12px;
+    text-shadow: 1px 1px 0 #eee;
+  }
+
+  aside nav h3 {
+    background: #202020;
+    color: #eee;
+    padding: 10px;
+    /**/
+    margin-right: 20px;
+  }
+
+  aside nav h3 span {
+    background: url(https://github.com/mahdi-javid/mahdi-javid.github.io/blob/master/CMD/wal.png?raw=true) right no-repeat;
+    height: 50px;
+    width: 50px;
+    float: right;
+    position: relative;
+    margin: -15px -30px 0px 5px;
+  }
+
+  aside nav ul {
+    margin-right: -30px;
+    color: #111;
+  }
+
+  aside nav ul li {
+    padding: 6px 25px 7px 8px;
+    background: #ddd url(../images/ul-li.png) right 6px center no-repeat;
+    margin: 5px 5px 5px 15px;
+    font: 14px;
+    font-family:  Tahoma;
+    text-shadow: 1px 1px 0 #bbb;
+    transition: all 0.5s ease;
+    overflow: hidden;
+  }
+
+  aside nav ul li:hover a {
+    color: #fff;
+  }
+
+  aside nav ul li:hover {
+    background: #d37305 url(../images/ul-li.png) right 14px center no-repeat;
+    text-shadow: 1px 1px 0 #696969;
+    padding-right: 33px;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  footer {
+    width: 100%;
+    text-align: center;
+    background: url('https://github.com/mahdi-javid/mahdi-javid.github.io/blob/master/CMD/footer.png?raw=true') repeat;
+    height: 130px;
+    font-size: 12px;
+    color: #fff;
+    display: block;
+  }
+
+  footer span {
+    margin: 105px 0px 0px 0px;
+    width: 100%;
+    float: left;
+    bottom: 0px;
+    position: relative;
+  }
+
+  footer span a {
+    color: #fff;
+  }
+
+  footer span a:hover {
+    color: #eee
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .GS-ads {
+    background: url(../images/icon/ads.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-list {
+    background:
+      url(../images/icon/list.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-rss {
+    background: url(../images/icon/rss.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-tag {
+    background: url(../images/icon/tag.png) no-repeat;
+    height: 20px;
+    width:
+      20px;
+  }
+
+  .GS-vcard {
+    background: url(../images/icon/vcard.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-folder {
+    background:
+      url(../images/icon/folder.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-export {
+    background:
+      url(../images/icon/export.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-address {
+    background:
+      url(../images/icon/address.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-link {
+    background: url(../images/icon/link.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-user {
+    background: url(../images/icon/user.png) no-repeat;
+    height: 20px;
+    width:
+      20px;
+  }
+
+  .GS-useres {
+    background: url(../images/icon/useres.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-page {
+    background:
+      url(../images/icon/page.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-pages {
+    background: url(../images/icon/pages.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-search {
+    background: url(../images/icon/search.png) no-repeat;
+    height: 20px;
+    width:
+      20px;
+  }
+
+  .GS-reg {
+    background: url(../images/icon/reg.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-hit {
+    background:
+      url(../images/icon/hit.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-poll {
+    background: url(../images/icon/poll.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-chat {
+    background: url(../images/icon/chat.png) no-repeat;
+    height: 20px;
+    width:
+      20px;
+  }
+
+  .GS-mail {
+    background: url(../images/icon/mail.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-auto-link {
+    background:
+      url(../images/icon/auto-link.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-counter {
+    background:
+      url(../images/icon/counter.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-forum {
+    background: url(../images/icon/forum.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-menu {
+    background: url(../images/icon/menu.png) no-repeat;
+    height: 20px;
+    width:
+      20px;
+  }
+
+  .GS-contact {
+    background: url(../images/icon/contact.png) no-repeat;
+    height: 20px;
+    width:
+      20px;
+  }
+
+  .GS-related {
+    background: url(../images/icon/related.png) no-repeat;
+    height: 20px;
+    width:
+      20px;
+  }
+
+  .GS-comments {
+    background: url(../images/icon/comments.png) no-repeat;
+    height: 20px;
+    width:
+      20px;
+  }
+
+  .GS-tools {
+    background: url(../images/icon/tools.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-rand {
+    background:
+      url(../images/icon/rand.png) no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .GS-users {
+    background: url(../images/icon/users.png) no-repeat;
+    height: 13px;
+    width: 13px;
+  }
+
+  .GS-clock {
+    background: url(../images/icon/clock.png) no-repeat;
+    height: 13px;
+    width:
+      13px;
+  }
+
+  .GS-comment {
+    background: url(../images/icon/comment.png) no-repeat;
+    height: 13px;
+    width:
+      13px;
+  }
+
+  .GS-level-up {
+    background: url(../images/icon/level-up.png) no-repeat;
+    height: 13px;
+    width: 13px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*
+Skin Name: Nivo Slider Default Theme
+Skin URI: http://nivo.dev7studios.com
+Description: The default skin for the Nivo Slider.
+Version: 1.3
+Author: Gilbert Pellegrom
+Author URI: http://dev7studios.com
+Supports Thumbs: true
+*/
+
+  .theme-default .nivoSlider {
+    position: relative;
+    background: #fff url(loading.gif) no-repeat 50% 50%;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+  }
+
+  .theme-default .nivoSlider img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+  }
+
+  .theme-default .nivoSlider a {
+    border: 0;
+    display: block;
+  }
+
+  .theme-default .nivo-controlNav {
+    text-align: left;
+    padding: 20px 0;
+  }
+
+  .theme-default .nivo-controlNav a {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(bullets.png) no-repeat;
+    text-indent: -9999px;
+    border: 0;
+    margin: 0 2px;
+  }
+
+  .theme-default .nivo-controlNav a.active {
+    background-position: 0 -22px;
+  }
+
+  .theme-default .nivo-directionNav a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(arrows.png) no-repeat;
+    text-indent: -9999px;
+    border: 0;
+    opacity: 0;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+  }
+
+  .theme-default:hover .nivo-directionNav a {
+    opacity: 1;
+  }
+
+  .theme-default a.nivo-nextNav {
+    background-position: -30px 0;
+    right: 15px;
+  }
+
+  .theme-default a.nivo-prevNav {
+    left: 15px;
+  }
+
+  .theme-default .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  .theme-default .nivo-caption a {
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+  }
+
+  .theme-default .nivo-caption a:hover {
+    color: #fff;
+  }
+
+  .theme-default .nivo-controlNav.nivo-thumbs-enabled {
+    width: 100%;
+  }
+
+  .theme-default .nivo-controlNav.nivo-thumbs-enabled a {
+    width: auto;
+    height: auto;
+    background: none;
+    margin-bottom: 5px;
+  }
+
+  .theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+    display: block;
+    width: 120px;
+    height: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .nivoSlider {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .nivoSlider img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: none;
+  }
+
+  .nivo-main-image {
+    display: block !important;
+    position: relative !important;
+    width: 100% !important;
+  }
+
+  .nivoSlider a.nivo-imageLink {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 6;
+    display: none;
+    background: white;
+    filter: alpha(opacity=0);
+    opacity: 0;
+  }
+
+  .nivo-slice {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    height: 100%;
+    top: 0;
+  }
+
+  .nivo-box {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    overflow: hidden;
+  }
+
+  .nivo-box img {
+    display: block;
+  }
+
+  .nivo-caption {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background: #000;
+    color: #fff;
+    width: 100%;
+    z-index: 8;
+    padding: 5px 10px;
+    opacity: 0.8;
+    overflow: hidden;
+    display: none;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=8);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .nivo-caption p {
+    padding: 5px;
+    margin: 0;
+  }
+
+  .nivo-caption a {
+    display: inline !important;
+  }
+
+  .nivo-html-caption {
+    display: none;
+  }
+
+  .nivo-directionNav a {
+    position: absolute;
+    top: 45%;
+    z-index: 9;
+    cursor: pointer;
+  }
+
+  .nivo-prevNav {
+    left: 0px;
+  }
+
+  .nivo-nextNav {
+    right: 0px;
+  }
+
+  .nivo-controlNav {
+    text-align: left;
+    padding: 15px 0;
+  }
+
+  .nivo-controlNav a {
+    cursor: pointer;
+  }
+
+  .nivo-controlNav a.active {
+    font-weight: bold;
+  }
+
+  .slider-wrapper {
+    width: 376px;
+    height: 208px;
+    position: absolute;
+  }
+</style>
+
+<head>
+
+
+  <!-- code mouse -->
+  <style type="text/css">
+    body,
+    a,
+    a:hover {
+      cursor: url(http://www.parandehgharib.ir/88/mouse-sabet/b24.png), progress;
+    }
+  </style>
+  <!-- code mouse -->
+
+
+
+
+
+
+
+
+
+  <title>
+    CMD
+  </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="expires" content="0">
+  <meta name="designer" content="Mohammad Mahdi Javid">
+  <meta name="copyright" content="Copyright (c) by IUST departmect of CE">
+  <meta name="resource-type" content="document">
+  <meta name="distribution" content="global">
+  <meta name="author" content="Mahdi Javid">
+  <meta name="language" content="Farsi">
+  <meta name="robots" content="index, follow">
+  <meta name="revisit-after" content="1 days">
+  <meta name="rating" content="general">
+  <meta name="description" content="<-BlogAndPostTitle-> - <-BlogDescription-> - <-BlogTitle->">
+  <meta name="keywords" content="<-BlogAndPostTitle->,<-BlogId->, Blog, Weblog, Persian,Iran, Iranian, Farsi, Weblogs">
+  <!-- <link href="http://dl.greenskin.ir/theme/theme_net4/style/style.css" type="text/css" rel="stylesheet">
+	<link href="http://dl.greenskin.ir/theme/theme_net4/style/icons.css" type="text/css" rel="stylesheet">
+	<link href="http://dl.greenskin.ir/theme/theme_net4/GS-Slider/themes/default/default.css" type="text/css"
+		media="screen" rel="stylesheet" />
+	<link href="http://dl.greenskin.ir/theme/theme_net4/GS-Slider/GS-Slider.css" type="text/css" media="screen"
+		rel="stylesheet" /> -->
+  <!-- <script language="javascript">
+		function GetBC(lngPostid) {
+			intTimeZone = < -BlogTimeZone - > ;
+			strBlogId = "<-BlogId->";
+			intCount = -1;
+			strResult = "";
+			try {
+				for (i = 0; i < BlogComments.length; i += 2) {
+					if (BlogComments[i] == lngPostid)
+						intCount = BlogComments[i + 1];
+				}
+			} catch (e) {}
+			if (intCount == -1) strResult = "آرشيو نظرات";
+			if (intCount == 0) strResult = "نظر بدهيد";
+			if (intCount > 0) strResult = intCount + " نظر";
+
+			strUrl = "/comments/?blogid=" + strBlogId + "&postid=" + lngPostid + "&timezone=" + intTimeZone;
+			strResult = "<a href=\"javascript:void(0)\" onclick=\"javascript:window.open('" + strUrl +
+				"','blogfa_comments','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no ,width=500px,height=500px')\" >" +
+				strResult + " </a>";
+
+			document.write(strResult);
+		}
+
+		function OpenLD() {
+			window.open('/links', 'blogfa_ld',
+				'status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no ,width=500px,height=500px');
+			return true;
+		}
+	</script> -->
+</head>
+
+<body>
+  <div class="GreenSkin">
+    <header class="header">
+      <div style="display:none">
+        <h1><a href="98521108.pythonanywhere.com" target="_blank">
+            <-BlogAndPostTitle->
+          </a></h1>
+      </div>
+      <!-- <div id="GS_Slider">
+				<div class="slider-wrapper theme-default">
+					<div id="slider" class="nivoSlider">
+						<img src="http://dl.greenskin.ir/theme/theme_net4/GS-Slider/images/01.jpg"
+							data-thumb="http://dl.greenskin.ir/theme/theme_net4/GS-Slider/images/01.jpg"
+							alt="Developer" />
+						<img src="http://dl.greenskin.ir/theme/theme_net4/GS-Slider/images/02.jpg"
+							data-thumb="http://dl.greenskin.ir/theme/theme_net4/GS-Slider/images/02.jpg"
+							alt="Developer" />
+						<img src="http://dl.greenskin.ir/theme/theme_net4/GS-Slider/images/03.jpg"
+							data-thumb="http://dl.greenskin.ir/theme/theme_net4/GS-Slider/images/03.jpg"
+							alt="Developer" />
+						<img src="http://dl.greenskin.ir/theme/theme_net4/GS-Slider/images/04.jpg"
+							data-thumb="http://dl.greenskin.ir/theme/theme_net4/GS-Slider/images/04.jpg"
+							alt="Developer" />
+					</div>
+				</div>
+			</div> -->
+      <nav>
+        <ul>
+          <li><a href="/mainpage" target="_blank">صفحه اصلی</a></li>
+          <li><a href="/mainpage" target="_blank">عناوین مطالب</a></li>
+          <!-- <li><a href="<-BlogArchiveLink->">آرشیو</a></li> -->
+          <li><a href="https://www.linkedin.com/in/mahdi-javid-92166b181/" target="_blank">پروفایل</a></li>
+          <li><a href="mailto:mahdijavid1380@yahoo.com" target="_blank">تماس با ما</a></li>
+          <!-- <li><a href="<-BlogXmlLink->">خوراک</a></li> -->
+          <!-- <li><a target="_blank" href="http://www.greenskin.ir/">قالب سبز</a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <aside class="GSside-1">
+      <nav>
+        <h3><span></span>درباره من</h3>
+        <BlogProfile>
+          <BlogPhoto>
+            <div style="text-align:center;"><img width="150" height="220"
+                src="https://mahdi-javid.github.io/assets/images/photo_2019-10-31_22-42-03.jpg"></div>
+          </BlogPhoto>
+          <p>
+            Welcome to CMD tutorial webpage <br>
+            If you like to visit my personal website : <a href='https://mahdi-javid.github.io'
+              target="_blank">mahdi-javid.github.io</a> <br>
+            <a href="mailto:mahdijavid1380@yahoo.com" target="_blank">I would be happy to hear your suggestions about
+              how to improve my website</a>
+          </p>
+        </BlogProfile>
+      </nav>
+
+      <BlogCategoriesBlock>
+        <nav>
+          <h3><span></span>موضوعات</h3>
+          <ul>
+            <BlogCategories>
+              <li><a href="/lesson1" target="_blank">
+                  1- Directory
+                </a></li>
+              <li><a href="">
+                  2-
+                </a></li>
+              <li><a href="">
+                  3-
+                </a></li>
+            </BlogCategories>
+          </ul>
+        </nav>
+      </BlogCategoriesBlock>
+
+      <!-- <nav>
+				<h3><span></span>آرشیو</h3>
+				<ul>
+					<BlogArchive>
+						<li><a href="<-ArchiveLink->">
+								<-ArchiveTitle->
+							</a></li>
+					</BlogArchive>
+				</ul>
+			</nav> -->
+
+      <BlogLinkDumpBlock>
+        <nav>
+          <h3><span></span>لینک‌های مفید</h3>
+          <ul>
+            <BlogLinkDump>
+              <li><a target="_blank" href="//mahdi-javid.github.io" title="My website">
+                  My personal website
+                </a></li>
+              <li><a target="_blank" href="//www.linkedin.com/in/mahdi-javid-92166b181/" title="Linkedin">
+                  My linkedin Account
+                </a></li>
+              <li><a target="_blank" href="//IUST.ac.ir" title="My university">
+                  My university
+                </a></li>
+
+            </BlogLinkDump>
+          </ul>
+        </nav>
+      </BlogLinkDumpBlock>
+
+    </aside>
+    <section>
+      <!-- <article>
+				<h2><span></span>آخرین مطالب ارسالی</h2>
+				<div class="GSPostMain">
+					<BlogPreviousItems items="20"><img hspace="0" src="http://dl.greenskin.ir/images/li.png"
+							align="baseline" border="0"> <a href="<-PostLink->" title="<-PostDate->">
+							<-PostTitle->
+						</a><br></BlogPreviousItems>
+				</div>
+			</article> -->
+      <!-- Amoozesha -->
+      <BLOGFA>
+        <article>
+
+
+
+
+          <h1 align='left' style="margin-left: .5em;"><strong><big><big><big>2. How to rename files with Command Prompt (lesson2):</h1></strong></big></big></big><br><br><br>
+          <p style="margin-left: 3.5em;" align='left'>
+            <font size="+3"> Syntax of rename command: type:(rename file_path new_name)</font><br><br><br><br>
+          </p>
+          <p style="margin-left: 3.5em;" align='left'>
+            <font size="+3"> for example i want to change test.txt to test.bat and test.txt is in C:\test directory so im gonna type:(rename C:\test\test.txt test.bat)</font><br><br><br><br>
+          </p>
+          <p style="margin-left: 3.5em;" align='left'>
+            <font size="+3">if my current directory is (C:\test) I can type: (rename test.txt test.bat) </font>
+            <br><br>
+          </p><br><br>
+          <p style="margin-left: 3.5em;"align='left'>
+            <font size="+3"> You can abbreviate rename to : (ren) so instead of writing the second line we can type:(ren C:\test\test.txt test.bat)</font><br><br><br><br>
+          </p>
+          <p style="margin-left: 3.5em;"align='left'>
+            <font size="+3"> if you want to rename a directory its a little different for example i want to change (test) directory and test directory is in this address (C:\test) so I should type:(ren C:\test ali) so my directory name will change to ali  </font><br><br><br><br>
+          </p>
+          <p style="margin-left: 3.5em;"align='left'>
+            <font size="+3"> if your current directory is this (C:\) you can type this command:(ren test ali) </font><br><br><br><br>
+          </p>
+
+          <br><br>
+          <h1 align='left' style="margin-left: .5em;"><strong><big><big><big>Exercise:</h1>
+          </strong></big></big></big>
+          <form action="check_command/" method="POST">
+            <p style="margin-left: 3.5em;">
+              <font size="+3" align='left'>E1- How can we undrestand what is our current directory? </font><br><br>
+            </p>
+            <input align='left' type="text" placeholder="Type Answer here" name="command1" value="" style="margin-left: 0.0em;height:100px ;width: 520px;border: 2px solid red;
+              border-radius: 4px;font-size:25pt;background-color: #000000;
+              color: white;"><br><br><br><br><br><br>
+            <p style="margin-left: 3.5em;" align='left'>
+              <font size="+3" >E2- How we can change all bat files into txt file  </font><br><br>
+            </p>
+
+            <input align='left' type="text" name="command2" placeholder="Type Answer here" value="" style="margin-left: 0.0em;height:100px ;width: 520px;border: 2px solid red;
+              border-radius: 4px;font-size:25pt;background-color: #000000;
+              color: white;"><br><br><br><br><br><br>
+            <input type="submit" align='left' value="Check The Exercises"
+              style="margin-left: 0.0em;height:70px;width: 544px; font-size:25pt;">
+          </form><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="GSPostMain">
+            <!-- <-PostContent->
+							برچسب‌ها: <BlogPostTags separator=", "><a href="<-TagLink->">
+									<-TagName->
+								</a></BlogPostTags>
+							</BlogPostTagsBlock> -->
+            <div class="meta">
+              <span class="user"><span class="GS-users"></span>
+                Mahdi
+              </span>
+              <!-- <span class="date"><span class="GS-clock"></span>
+									<-PostDate->
+								</span> -->
+              <!-- <span class="comment"><span class="GS-comment"></span>
+									<BlogComment>
+										<script type="text/javascript">
+											GetBC( < -PostId - > );
+										</script>
+									</BlogComment>
+								</span> -->
+              <!-- <span class="more"><span class="GS-level-up"></span><a href="/lesson1" target="_blank">ادامه
+										مطلب</a></span> -->
+            </div>
+          </div>
+        </article>
+                  
+      </BLOGFA>
+      <!-- <BlogTagsBlock>
+				<article>
+					<h2><span></span>ابر برچسب</h2>
+					<div class="GSPostMain">
+						<BlogTags><a title="تعداد : <-TagCount->" href='http://<-TagName->'>
+								<-TagName->
+							</a> , </BlogTags>
+					</div>
+				</article>
+			</BlogTagsBlock> -->
+      <BlogNextAndPreviousBlock>
+        <!--<article>
+					<BlogPreviousPageBlock><a href="//mainpage2" target="_blank">
+							<< مطالب جدیدتر</a> </BlogPreviousPageBlock> ........ <BlogNextPageBlock><a
+									href="<-BlogNextPageLink->">مطالب قدیمی‌تر >></a></BlogNextPageBlock><br>
+				</article>-->
+      </BlogNextAndPreviousBlock>
+    </section>
+
+    <aside class="GSside-2">
+      <BlogAuthorsBlock>
+        <nav>
+          <h3><span></span>نویسندگان</h3>
+          <ul>
+            <BlogAuthors>
+              <li><a href="//mahdi-javid.github.io" title="Author" target="_blank">
+                  Mahdi Javid
+                </a></li>
+            </BlogAuthors>
+          </ul>
+        </nav>
+      </BlogAuthorsBlock>
+      <BlogLinksBlock>
+        <nav>
+          <h3><span></span>پیوندها</h3>
+          <ul>
+            <BlogLinks>
+              <li><a target="_blank" href="//mahdi-javid.github.io" title="personal website">
+                  My personal website
+                </a></li>
+            </BlogLinks>
+            <!-- <li><a target="_blank" href="http://www.GreenSkin.ir/" title="قالب سبز">قالب سبز</a></li> -->
+          </ul>
+        </nav>
+      </BlogLinksBlock>
+
+      <!-- <nav>
+				<h3><span></span>امکانات</h3>
+				<p>
+					<div align="center">
+						<-BlogCustomHtml->
+					</div>
+				</p>
+			</nav> -->
+
+    </aside>
+    <div class="clear"></div>
+    <footer>
+      <span>[ طراحي : <a href="//mahdi-javid.github.io" target="_blank" title="Mahdi Javid"> Mahdi Javid </a> ] [ <a
+          href="//mahdi-javid.github.io" target="_blank" title="Mahdi Javid"> Weblog Themes By : IUST, department of CE
+        </a>]</span>
+    </footer>
+  </div>
+  <script type="text/javascript" src="http://dl.greenskin.ir/theme/theme_net4/GS-Slider/scripts/jquery-1.9.0.min.js">
+  </script>
+  <script type="text/javascript" src="http://dl.greenskin.ir/theme/theme_net4/GS-Slider/scripts/jquery.gs.slider.js">
+  </script>
+  <script type="text/javascript">
+    $(window).load(function () {
+      $('#slider').nivoSlider();
+    });
+  </script>
+
+
+
+
+  <!-- balabar site -->
+  <script type="text/javascript" src="http://up.tempkade.ir/tools/gototop/jquery.min.js"></script>
+  <script>
+    var abzar = "<img src=https://github.com/mahdi-javid/mahdi-javid.github.io/blob/master/CMD/12.gif?raw=true />";
+  </script>
+  <script type="text/javascript" src="http://up.tempkade.ir/tools/gototop/scroll-topcontrol.js"></script>
+  <!-- balabar site -->
+
+
+
+
+
+
+
+
+</body>
+
+</html>

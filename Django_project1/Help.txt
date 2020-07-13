@@ -1,0 +1,39 @@
+django_demo1 = Django_project1
+mydemoproject1= project
+mydemoapp = app1
+Mydata = Commands
+
+
+
+
+
+git clone(pull) https://98521108.visualstudio.com/FC98991/_git/FC98991
+
+rm -r FC98991 = removing directory
+
+ls FC98991/Django_project1/project
+
+
+rm -rf mysite/
+
+cp -rf  FC98991/Django_project1/project/ mysite
+
+cd mysite
+
+python3.7 manage.py migrate
+
+cd project 
+
+cp wsgi.pa.py /var/www/98521108_pythonanywhere_com_wsgi.py
+
+reloard your site
+
+ 
+
+
+
+
+
+
+
+
